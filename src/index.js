@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import Play from './Play';
+
+// 여러 개를 import 할 경우 App.js 안에 새로 만든 js파일을 import할 것
 
 ReactDOM.render(
   <React.StrictMode>
@@ -11,7 +12,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// component : HTML을 반환하는 함수

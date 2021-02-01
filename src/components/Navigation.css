@@ -1,0 +1,22 @@
+.nav {
+    position: fixed;
+    top: 50px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+}
+
+.nav a:first-child{
+    margin-bottom: 10px;
+}
